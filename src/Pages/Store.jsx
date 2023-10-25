@@ -48,7 +48,8 @@ const Store = () => {
                   <h2>{item.name}</h2>
                   <img src="https://t4.ftcdn.net/jpg/02/74/86/39/360_F_274863915_4JnfDXwTaTsjg5w5e7keElOipBswjAte.jpg" alt="" style={{ "height": "50px", "width": "auto" }} />
                   <h4 className='deal'>Deal of the Day</h4>
-                  <h2 style={{ "color": "tomato" }}>₹ {item.price}   <span style={{ "textDecoration": "line-through", "color": "gray", "fontSize": "14px" }}>₹{item.oPrice}</span></h2>
+                  <h2 style={{ "color": "tomato" }}>₹ {item.price}   
+                  <span style={{ "textDecoration": "line-through", "color": "gray", "fontSize": "14px" }}>₹{item.oPrice}</span></h2>
                 </div>
               </div></Link>
           )
