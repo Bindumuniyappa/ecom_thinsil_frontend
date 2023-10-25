@@ -1,0 +1,142 @@
+.main_heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.head_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_text {
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color: #FF4252;
+}
+
+.navbar {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    text-transform: uppercase;
+    width: 60%;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navbar li {
+    margin: 10px 30px;
+    text-decoration: none;
+
+}
+
+a {
+    all: unset;
+}
+
+.naV li:hover {
+    cursor: pointer;
+    border-bottom: 3px solid gray;
+    box-shadow: -3px 2px 0px gray;
+    border-radius: 4px;
+    color: blue;
+}
+
+.nav {
+    color: tomato;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+/* profile css start */
+
+.profile {
+    all: unset;
+    cursor: pointer;
+    width: auto;
+    /* height: 100px; */
+    border: 2px solid;
+}
+
+.dropdown_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.dropdown {
+    display: flex;
+    gap: 20px;
+}
+
+.dropdown_nav li {
+    list-style-type: none;
+}
+
+/*[X] Footer.jsx*/
+.main_footer {
+
+    height: 31vh;
+    background-color: #232F3E;
+    color: white;
+    font-family: Amazon Ember, Arial, sans-serif;
+    display: flex;
+    line-height: 1.5;
+    gap: 20px;
+    justify-content: space-around;
+    box-shadow: 2px 2px 15px grey;
+}
+
+.social {
+    margin-top: 55px;
+}
+
+
+/*[X] minNavbar*/
+.miniMenu,
+.btnback {
+    display: none;
+}
+
+#minimenu {
+    font-size: 2rem;
+}
+
+
+/* .mini {
+    
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,.9); 
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center; 
+    position: absolute;
+    width: 100vw;
+    border: 2px solid; 
+    color: white;
+    z-index: 9999999;
+   
+   
+} */
+.mini ul {
+    list-style-type: none;
+}
+
+.mini li {
+    margin: 10px 30px;
+    text-decoration: none
+}

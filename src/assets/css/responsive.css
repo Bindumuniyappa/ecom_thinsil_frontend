@@ -1,0 +1,124 @@
+@media screen and (max-width:1000px) {
+
+    /*nav*/
+    .navbar {
+        display: none;
+    }
+
+    .miniMenu {
+        display: block;
+    }
+
+    .btnback {
+        display: block;
+        position: absolute;
+        left: 90%;
+        top: 13%;
+    }
+
+    /*footer*/
+    .main_footer {
+        text-align: center;
+        margin-top: 195px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    /*[X] home,store*/
+    .product_container {
+        flex-wrap: nowrap;
+    }
+
+    .home_img {
+        height: 250px;
+        width: auto;
+    }
+
+    .OurBenifit {
+        flex-direction: column;
+    }
+
+    .text_bs {
+        height: 140px;
+    }
+
+    .hr {
+        height: 250px;
+    }
+
+    #grid {
+        display: none;
+    }
+
+    .text_OS {
+        flex-direction: row;
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+    }
+
+    #back {
+        display: none;
+    }
+
+    #imgs {
+        display: none;
+    }
+
+    /*sigin page*/
+    .sign_box {
+        justify-content: center;
+        background-image: linear-gradient(180.3deg, rgb(214, 224, 255) 37.2%, rgb(254, 168, 168) 137.3%);
+        border-radius: 30px;
+    }
+
+    #goback {
+        position: absolute;
+        left: 45%;
+        color: peru;
+        font-weight: bolder;
+        border-bottom: 2px solid black;
+    }
+
+    /*[X] cart page*/
+    .row2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+    }
+
+    .row3 {
+        height: 400px;
+        width: 250px;
+        text-align: center;
+    }
+
+    .cart_summary {
+        margin-top: 30px;
+    }
+
+    .goback_btn {
+        display: none;
+    }
+
+    /* .nav_left{
+        display: none;
+    } */
+    .head_nav {
+        /* margin-top: 20px; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nav_text {
+        display: none;
+    }
+
+    .key_div:hover {
+        box-shadow: 2px 2px 5px gray;
+    }
+
+}

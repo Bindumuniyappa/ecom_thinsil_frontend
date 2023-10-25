@@ -1,0 +1,66 @@
+.prod_div {
+    width: 95vw;
+    height: auto;
+    margin: 20px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: 0 0 5px white;
+    gap: 20px;
+    transition: all .5s;
+}
+
+.key_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    padding: 5px;
+    border: 1px solid gainsboro;
+}
+
+.key_div:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px gray;
+}
+
+.btn {
+    border: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#grid {
+    position: absolute;
+    top: 100px;
+    left: 1400px;
+    font-size: 1.5rem;
+}
+
+.containerStyle {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border-radius: 10px;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    padding: 5px;
+}
+
+/*[X] cart styling*/
+.cart_btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: orange;
+
+}
